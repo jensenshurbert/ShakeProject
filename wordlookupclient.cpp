@@ -78,8 +78,6 @@ int main() {
   
   cout << "Content-Type: text/plain\n\n";
 
-  
-  //cout << "TEST" << endl;
   printLines(pars(results));
 
   
@@ -93,13 +91,11 @@ return 0;
     	stringstream ss(reply);
     	int i;
     	char c;
-    	
-    	//cout << "TEST HERE" << endl;
+    
     	
     	while(ss>>i){
     	
     		result.push_back(i);
-    		//cout << i << " ";
     		ss >> c;
     	}
     	
