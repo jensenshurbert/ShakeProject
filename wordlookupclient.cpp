@@ -35,7 +35,7 @@ vector<int> pars(string reply);
 // Possible values returned by results_select
 #define WORD  "Word"
 
-//Indeed, myString needs to be a copy of the original string
+//Convert the words to uppercase
 std::string StringToUpper(std::string myString)
 {
   const int length = myString.length();
@@ -50,6 +50,7 @@ std::string StringToUpper(std::string myString)
 string receive_fifo = "Wordreply";
 string send_fifo = "Wordrequest";
 
+//Stemming the searched word
 stemming::english_stem<char, std::char_traits<char> > StemEnglish;
 ifstream ssfile;
 
