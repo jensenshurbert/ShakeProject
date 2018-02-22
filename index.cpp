@@ -1,5 +1,5 @@
 #include "index.h"
-
+//AP is changing your code for the github HW assignment
 //constructor
 bookIndex::bookIndex(){
 }
@@ -7,7 +7,7 @@ bookIndex::bookIndex(){
 
 void bookIndex::addWord(string word, int p){
 	index[word].push_back(p);
-
+	//ap
 }
 
 vector<int> bookIndex::lookup(string word){	
